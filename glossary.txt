@@ -1,0 +1,12 @@
+HTML
+
+rel:
+    rel attribute belong to link tag. It describs the relationship between html and linked document.
+
+CSS
+resets:
+    not a super fan of resetter used as boiler plagte but for sake of tutorial I copy as it is. I commented what IHMO is not needed ATM
+
+STRUCTURE
+assets:
+    learn to be a little more structured
