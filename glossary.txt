@@ -34,4 +34,13 @@ section
 
 By nature the anchor element, <a>, is an inline element, and, according to web standards, inline-level elements may not wrap block-level elements. With the introduction of HTML5, however, anchor elements specifically have permission to wrap either block-, inline-, or any other level elements. This is a break from the standard convention, but it’s permissible in order to enable entire blocks of content on a page to become links.
 
+The type selector has the lowest specificity weight and holds a point value of 0-0-1. 
+The class selector has a medium specificity weight and holds a point value of 0-1-0. 
+Lastly, the ID selector has a high specificity weight and holds a point value of 1-0-0. 
 
+
+The selector farthest to the right, directly before the opening curly bracket, is known as the key selector. 
+The key selector identifies exactly which element the styles will be applied to. 
+Any selector to the left of the key selector will serve as a prequalifier.
+
+The pixel is equal to 1/96th of an inch; thus there are 96 pixels in an inch. FINALLY!!!
