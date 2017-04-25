@@ -1,0 +1,37 @@
+HTML
+
+rel:
+    rel attribute belong to link tag. It describs the relationship between html and linked document.
+
+CSS
+resets:
+    not a super fan of resetter used as boiler plagte but for sake of tutorial I copy as it is. I commented what IHMO is not needed ATM
+
+STRUCTURE
+assets:
+    learn to be a little more structured
+
+
+Notes:
+-- Semantic code describes the value of content on a page, regardless of the style or appearance of that content.
+-- We want to choose a value that refers to the content of an element, not necessarily the appearance of an element.
+-- Each heading level should be used where it is semantically valued, and should not be used to make text bold or big—there are other, better ways to do that.
+
+-- strong vs b/bold em vs i/italic (remeber for next class)
+
+-- <header>, <nav>, <article>, <section>, <aside>, and <footer> all block (div on steroids)
+
+-- nav: The <nav> element identifies a section of major navigational links on a page. (Remeber Lora's note) nav is not talking about navigation as action/concept. It is talking also about navigation hierarchy
+
+section
+    article
+        div
+        div
+        div
+    article     article vs section: article MUST be indipendent and it may be redistributed. you can have section in section
+        div
+        div
+
+By nature the anchor element, <a>, is an inline element, and, according to web standards, inline-level elements may not wrap block-level elements. With the introduction of HTML5, however, anchor elements specifically have permission to wrap either block-, inline-, or any other level elements. This is a break from the standard convention, but it’s permissible in order to enable entire blocks of content on a page to become links.
+
+
