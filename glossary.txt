@@ -45,6 +45,10 @@ Any selector to the left of the key selector will serve as a prequalifier.
 
 The pixel is equal to 1/96th of an inch; thus there are 96 pixels in an inch. FINALLY!!!
 
+This could be quickly accomplished by setting the line-height to 150%, or just 1.5.
+
+By default, browsers render headings with a font-weight of bold.
+
 ================================
 
 DEMOPOS
@@ -54,3 +58,4 @@ When we float an element, we take it out of the normal flow of the HTML document
 It can be corrected by adding a fixed width property value to each column. Additionally, to prevent floated elements from touching one another, causing the content of one to sit directly next to the content of the other, we can use the margin property to create space between elements.
 
 clear: using clear to restore the correct float is important to apply it to the following element of the floated one(s)
+
