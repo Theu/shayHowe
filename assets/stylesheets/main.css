@@ -28,7 +28,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-/*body {
+body {
 	line-height: 1;
 }
 ol, ul {
@@ -45,5 +45,25 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-/*}
-/* resets */
+}
+/* resets 
+
+/*
+=======================
+GRID
+=======================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+	width: 960px;
+	padding: 0 30px;
+	margin: 0 auto;
+}

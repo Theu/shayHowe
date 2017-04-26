@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charse="utf-8">
+        <title>Styles Conference</title>
+        <link rel="stylesheet" href="assets/stylesheets/main.css">
+        <style>
+            /*.hotdog p {
+                background: brown;
+            }
+            .hotdog p.mustard {
+                background: yellow;
+            }*/
+            /*same as */
+            
+            .hotdog p.mustard {
+                background: yellow;
+                width: 50%;
+            }
+            .hotdog p {
+                background: brown;
+            }
+            /*this because: p: 0-0-1
+                      .hotdog: 0-1-0
+                    .mistard:  0-1-0
+                    ---------> 0-2-0
+                    higher than:
+                            p: 0-0-1
+                      .hotdog: 0-1-0 
+                    ---------> 0-1-1
+                    */
+
+        </style>
+    </head>
+    <body>
+        <div class="hotdog">
+            <p>...</p>
+            <p>...</p>
+            <p class="mustard">...</p>
+        </div>
+    </body>
+</html>
