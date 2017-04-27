@@ -1,0 +1,11 @@
+div {
+    height: 100px;
+    width: 100px;
+    border: 1px solid red;
+}
+
+.offset {
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
